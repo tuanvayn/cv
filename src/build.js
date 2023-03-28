@@ -23,10 +23,10 @@ const source = fs.readFileSync(srcDir + '/templates/index.html', 'utf-8');
 const template = handlebars.compile(source);
 const pdfFileName = `${getSlug(templateData.name)}.${getSlug(templateData.title)}.pdf`;
 const html = template({
-  ...templateData,
-  baseUrl: `https://${username()}.github.io/${repoName.sync()}`,
-  pdfFileName,
-  updated: dayjs().format('MMMM D, YYYY'),
+	...templateData,
+	baseUrl: `https://${username()}.github.io/${repoName.sync()}`,
+	pdfFileName,
+	updated: dayjs().format('MMMM D, YYYY'),
 });
 
 fs.writeFileSync(outputDir + '/index.html', html);
