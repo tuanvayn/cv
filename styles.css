@@ -162,7 +162,7 @@ h4 {
 }
 
 p {
-	margin-bottom: 0.1rem;
+	margin-bottom: 0.15rem;
 }
 
 .under {
@@ -202,5 +202,5 @@ p {
 }
 
 .fs-5 {
-	font-size: 1.05rem !important;
+	font-size: 1.1rem !important;
 }
