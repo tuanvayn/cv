@@ -160,8 +160,9 @@ h4 {
 	content: '•••••';
 	color: var(--bs-primary);
 }
+
 p {
-	margin-bottom: 0.1rem;
+	margin-bottom: 0.15rem;
 }
 
 .under {
@@ -198,4 +199,8 @@ p {
 
 .lynchin2 {
 	color: #061423;
+}
+
+.fs-5 {
+	font-size: 1.1rem !important;
 }
