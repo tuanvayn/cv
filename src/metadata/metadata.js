@@ -9,15 +9,15 @@ module.exports = {
 	},
 	skills: [
 		['Java', 100],
-		['JS', 90],
-		['Python', 80],
-		['OracleDB', 70],
-		['Docker', 60],
-		['K8s', 50],
-		['Oracle Service Bus', 40],
-		['REST', 30],
-		['SOAP', 25],
-		['Git', 25],
+		['JS', 100],
+		['Python', 100],
+		['OracleDB', 100],
+		['Docker', 100],
+		['K8s', 100],
+		['Oracle Service Bus', 100],
+		['REST', 100],
+		['SOAP', 100],
+		['Git', 100],
 	],
 
 	company: [
@@ -35,6 +35,8 @@ module.exports = {
 Worked as an outsourced Java developer for maintaining multiple sub-system projects of PCCW (Hongkong) client
 
 - Collaborated with the in-house development team to understand project requirements and design specifications
+
+- Led a team with 3 members
 
 - Developed and implemented new features for the client's services using Java and related technologies, such as Spring and Hibernate
 
@@ -87,6 +89,8 @@ Worked as an outsourced Java developer for rebuilding Vietinbank business custom
 
 - Collaborated with the in-house development team to understand project requirements and design specifications
 
+- Led a team with 12 members
+
 - Developed and implemented new microservices for the banking service using Java and related technologies, such as Spring Boot and Docker, Kubernetes
 
 - Conducted code reviews and testing to ensure high-quality deliverables
@@ -107,6 +111,8 @@ Worked as an outsourced Java developer for rebuilding Vietinbank business custom
 Worked as an outsourced Java developer for designing and building Vietinbank system which supports connections from other systems like Misa ERP, Grab, etc...
 
 - Collaborated with the in-house development team to understand project requirements and design specifications
+
+- Led a team with 4 members
 
 - Developed and implemented new features for the system using Java and related technologies, such as Spring and Hibernate
 
@@ -129,15 +135,17 @@ Worked as an outsourced developer for designing and building National Population
 
 - Collaborated with the in-house development team to understand project requirements and design specifications
 
+- Led a team with 5 members
+
 - Developed and implemented new features for the database using Java and related technologies, such as JDBC and SQL
+
+- Participated in research and gained knowledge of open source technology as well as proprietary technologies from major software vendors
 
 - Conducted code reviews and testing to ensure high-quality deliverables
 
 - Communicated regularly with the project manager and team members to provide updates on progress and address any issues or concerns
 
 - Completed the project on time and within budget, resulting in improved accuracy and accessibility of population data for law enforcement agencies.
-
-- Supporting incoming connection from customer's client.
 `
 				},
 				{
@@ -169,22 +177,18 @@ Designed and built real-time fraud detection system for ATM transactions, result
 					contents: `
 Collaborated with another startup for building the IOT application for managing in-house devices' status
 
-- Designed and developed new features for the system using Java and related technologies
+- Developed features for the system using Java and related technologies
 
 - Collaborated with the project manager and team members to identify requirements and design specifications
 
-- Conducted code reviews and testing to ensure high-quality deliverables
-
-- Optimized system performance through code refactoring and database tuning
-
 - Communicated regularly with stakeholders to provide updates on progress and address any issues or concerns
 
-- Successfully delivered the project on time and within budget, resulting in improved device management capabilities and increased productivity.
+- Successfully delivered the project on time and within budget, resulting in improved devices management capabilities and increased productivity.
 `
 				},
 				{
 					title: 'Scraping user data',
-					period: 'Jan 2018 - Dec 2018',
+					period: 'Jan 2018 - Nov 2018',
 					skills: ['Java', 'Cassandra', 'Apache Storm', 'Selenium', 'SVN'],
 					role: "Software engineer",
 					contents: `
@@ -195,12 +199,6 @@ Built the Java-based data platform that scrapes types of data from various sourc
 - Collaborated with the project manager and team members to identify requirements and design specifications
 
 - Participated in daily stand-up meetings and provided updates on the status of assigned tasks
-
-- Communicated regularly with stakeholders to provide updates on progress and address any issues or concerns
-
-- Successfully delivered the project on time and within budget, resulting in improved device management capabilities and increased productivity.
-
-- Collaborating with cross-functional teams to develop requirements and designs, I delivered an improved device management system on time and within budget, resulting in increased productivity through regular communication with stakeholders.
 `
 				}
 			]
