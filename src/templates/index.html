@@ -26,7 +26,7 @@
 					</div>
 					<div>
 						<p>
-							<span class="small">while(true) i++;</span>
+							<!-- <span class="small">while(true) i++;</span> -->
 							<!-- <time datetime="{{ buildinfo.date }}" class="small">Last update: {{ updated }}</time> -->
 						</p>
 						<p>
@@ -74,14 +74,14 @@
 			<h4 class="h4 screen mb-2">Skills</h4>
 			<div class="row align-items-center">
 				{{#each skills}}
-				<div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
-					<small>{{ this.[0] }}</small>
+				<div class="col-print-3 col-4 col-md-4 col-lg-3 text-right">
+					<small>» {{ this.[0] }} ({{ this.[2] }})</small>
 				</div>
-				<div class="col-print-1 col-3 col-md-2 col-lg-1">
+				<!-- <div class="col-print-1 col-4 col-md-2 col-lg-1">
 					<div class="skills">
 						<div class="skills-bar" style="width: {{ this.[1] }}%"></div>
 					</div>
-				</div>
+				</div> -->
 				{{/each}}
 			</div>
 		</div>

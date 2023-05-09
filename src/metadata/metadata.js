@@ -8,16 +8,20 @@ module.exports = {
 		'Github': '<a href="https://github.com/tuanvayn"><i class="fa-brands fa-github fact-icon"></i>/tuanvayn</a>'
 	},
 	skills: [
-		['Java', 100],
-		['JS', 90],
-		['Python', 80],
-		['OracleDB', 70],
-		['Docker', 60],
-		['K8s', 50],
-		['Oracle Service Bus', 40],
-		['REST', 30],
-		['SOAP', 25],
-		['Git', 25],
+		['Java', 100, 'proficient'],
+		['Spring', 100, 'proficient'],
+		['OracleDB', 100, 'proficient'],
+		['Docker', 100, 'proficient'],
+		['K8s', 100, 'proficient'],
+		['REST', 100, 'proficient'],
+		['SOAP', 100, 'proficient'],
+		['Git', 100, 'proficient'],
+		['Kafka', 70, 'intermediate'],
+		['OSB/ESB', 70, 'intermediate'],
+		['Python', 60, 'intermediate'],
+		['JS', 50, 'beginner'],
+		['AI/ML', 50, 'beginner'],
+		['ETL processing', 50, 'beginner'],
 	],
 
 	company: [
@@ -29,18 +33,16 @@ module.exports = {
 				{
 					title: 'P2C',
 					period: 'Aug 2022 - Present',
-					skills: ['Java', 'Spring', 'SOAP', 'REST', 'Git'],
+					skills: ['Java', 'Spring', 'SOAP', 'REST', 'Git', 'Jira'],
 					role: "Senior Java developer",
 					contents: `
 Worked as an outsourced Java developer for maintaining multiple sub-system projects of PCCW (Hongkong) client
 
 - Collaborated with the in-house development team to understand project requirements and design specifications
 
-- Developed and implemented new features for the client's services using Java and related technologies, such as Spring and Hibernate
+- Led a 3 members team, developed and implemented new features for the client's services using Java and related technologies, such as Spring and Hibernate
 
-- Conducted code reviews and testing to ensure high-quality deliverables
-
-- Worked with the project manager and team members to ensure timely delivery of project milestones
+- Conducted code reviews and testing to ensure high-quality deliverables, worked with the project manager and team members to ensure timely delivery of project milestones
 
 - Communicated regularly with stakeholders to provide updates on progress and address any issues or concerns
 
@@ -52,7 +54,7 @@ Worked as an outsourced Java developer for maintaining multiple sub-system proje
 				{
 					title: 'eRFX Systems',
 					period: 'Aug 2022 - Present',
-					skills: ['Java', 'Struts', 'REST', 'Git', 'JSP', 'Jquery'],
+					skills: ['Java', 'Struts', 'REST', 'Git', 'JSP', 'Jquery', 'Jira'],
 					role: "Senior Java developer",
 					contents: `
 Worked as an outsourced Java developer for maintaining eRFX project using SQL Server, Java, and Struts 2 belong to Ascend Group (Thailand)
@@ -61,9 +63,7 @@ Worked as an outsourced Java developer for maintaining eRFX project using SQL Se
 
 - Developed and implemented new features for the system using Java and related technologies, such as Struts 2 and JDBC, and utilized SQL Server for database management
 
-- Conducted code reviews and testing to ensure high-quality deliverables
-
-- Worked with the project manager and team members to ensure timely delivery of project milestones
+- Conducted code reviews and testing to ensure high-quality deliverables, worked with the project manager and team members to ensure timely delivery of project milestones
 
 - Communicated regularly with stakeholders to provide updates on progress and address any issues or concerns
 
@@ -80,18 +80,16 @@ Worked as an outsourced Java developer for maintaining eRFX project using SQL Se
 				{
 					title: 'Vietinbank E-Fast business customers banking service',
 					period: 'Jun 2021 - Aug 2022',
-					skills: ['Java', 'Spring', 'Hibernate', 'REST', 'OracleDB', 'Docker', 'K8s', 'Git'],
+					skills: ['Java', 'Spring', 'Hibernate', 'REST', 'OracleDB', 'Docker', 'K8s', 'Git', 'Jira'],
 					role: "Team lead",
 					contents: `
 Worked as an outsourced Java developer for rebuilding Vietinbank business customer banking service to microservices
 
 - Collaborated with the in-house development team to understand project requirements and design specifications
 
-- Developed and implemented new microservices for the banking service using Java and related technologies, such as Spring Boot and Docker, Kubernetes
+- Led a team with 10 members, developed and implemented new microservices for the banking service using Java and related technologies, such as Spring Boot and Docker, Kubernetes
 
-- Conducted code reviews and testing to ensure high-quality deliverables
-
-- Worked with the project manager and team members to ensure timely delivery of project milestones
+- Conducted code reviews and testing to ensure high-quality deliverables, worked with the project manager and team members to ensure timely delivery of project milestones
 
 - Communicated regularly with stakeholders to provide updates on progress and address any issues or concerns
 
@@ -101,18 +99,16 @@ Worked as an outsourced Java developer for rebuilding Vietinbank business custom
 				{
 					title: 'Vietinbank E-Connect',
 					period: 'May 2021 - Jun 2022',
-					skills: ['Java', 'Spring', 'Hibernate', 'REST', 'OracleDB', 'Docker', 'K8s', 'Git'],
+					skills: ['Java', 'Spring', 'Hibernate', 'REST', 'OracleDB', 'Docker', 'K8s', 'Git', 'Jira'],
 					role: "Team lead",
 					contents: `
 Worked as an outsourced Java developer for designing and building Vietinbank system which supports connections from other systems like Misa ERP, Grab, etc...
 
 - Collaborated with the in-house development team to understand project requirements and design specifications
 
-- Developed and implemented new features for the system using Java and related technologies, such as Spring and Hibernate
+- Led a team with 4 members, developed and implemented new features for the system using Java and related technologies, such as Spring and Hibernate
 
-- Conducted code reviews and testing to ensure high-quality deliverables
-
-- Worked with the project manager and team members to ensure timely delivery of project milestones
+- Conducted code reviews and testing to ensure high-quality deliverables, worked with the project manager and team members to ensure timely delivery of project milestones
 
 - Communicated regularly with stakeholders to provide updates on progress and address any issues or concerns
 
@@ -129,21 +125,21 @@ Worked as an outsourced developer for designing and building National Population
 
 - Collaborated with the in-house development team to understand project requirements and design specifications
 
-- Developed and implemented new features for the database using Java and related technologies, such as JDBC and SQL
+- Led a team with 5 members, developed and implemented new features for the database using Java and related technologies, such as JDBC and SQL
+
+- Participated in research and gained knowledge of open source technology as well as proprietary technologies from major software vendors
 
 - Conducted code reviews and testing to ensure high-quality deliverables
 
 - Communicated regularly with the project manager and team members to provide updates on progress and address any issues or concerns
 
 - Completed the project on time and within budget, resulting in improved accuracy and accessibility of population data for law enforcement agencies.
-
-- Supporting incoming connection from customer's client.
 `
 				},
 				{
 					title: 'Fraud detection on ATM transactions',
-					period: 'Oct 2019 - Mar 2020',
-					skills: ['Java', 'Python', 'Hibernate', 'Spring', 'Kafka', 'ML/AI libs', 'OracleDB', 'Docker', 'Git'],
+					period: 'Aug 2019 - Mar 2020',
+					skills: ['Java', 'Python', 'Hibernate', 'Spring', 'Kafka', 'AI/ML', 'OracleDB', 'Docker', 'Git'],
 					role: "Software engineer",
 					contents: `
 Designed and built real-time fraud detection system for ATM transactions, resulting in a significant reduction in fraudulent activity.
@@ -163,28 +159,24 @@ Designed and built real-time fraud detection system for ATM transactions, result
 				},
 				{
 					title: 'In-house device management system',
-					period: 'Dec 2018 - Dec 2019 ',
+					period: 'Oct 2018 - Aug 2019',
 					skills: ['Java', 'C', 'Thing-boards', 'MQTT', 'Git'],
 					role: "Software engineer",
 					contents: `
-Collaborated with another startup for building the IOT application for managing in-house devices' status
+Collaborated with another startup for building the IOT application for managing multiple type of in-house devices' status
 
-- Designed and developed new features for the system using Java and related technologies
+- Developed features for the system using Java and related technologies
 
 - Collaborated with the project manager and team members to identify requirements and design specifications
 
-- Conducted code reviews and testing to ensure high-quality deliverables
-
-- Optimized system performance through code refactoring and database tuning
-
 - Communicated regularly with stakeholders to provide updates on progress and address any issues or concerns
 
-- Successfully delivered the project on time and within budget, resulting in improved device management capabilities and increased productivity.
+- Successfully delivered the project on time and within budget, resulting in improved devices management capabilities and increased productivity.
 `
 				},
 				{
 					title: 'Scraping user data',
-					period: 'Jan 2018 - Dec 2018',
+					period: 'Jan 2018 - Oct 2018',
 					skills: ['Java', 'Cassandra', 'Apache Storm', 'Selenium', 'SVN'],
 					role: "Software engineer",
 					contents: `
@@ -195,12 +187,6 @@ Built the Java-based data platform that scrapes types of data from various sourc
 - Collaborated with the project manager and team members to identify requirements and design specifications
 
 - Participated in daily stand-up meetings and provided updates on the status of assigned tasks
-
-- Communicated regularly with stakeholders to provide updates on progress and address any issues or concerns
-
-- Successfully delivered the project on time and within budget, resulting in improved device management capabilities and increased productivity.
-
-- Collaborating with cross-functional teams to develop requirements and designs, I delivered an improved device management system on time and within budget, resulting in increased productivity through regular communication with stakeholders.
 `
 				}
 			]
