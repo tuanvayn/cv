@@ -34,7 +34,7 @@ module.exports = {
 					title: 'P2C',
 					period: 'Aug 2022 - Present',
 					skills: ['Java', 'Spring', 'SOAP', 'REST', 'Git', 'Jira'],
-					role: "Senior Java developer",
+					role: "Senior Software engineer",
 					contents: `
 Worked as an outsourced Java developer for maintaining multiple sub-system projects of PCCW (Hongkong) client
 
@@ -47,7 +47,7 @@ Worked as an outsourced Java developer for maintaining multiple sub-system proje
 					title: 'eRFX Systems',
 					period: 'Aug 2022 - Present',
 					skills: ['Java', 'Struts', 'REST', 'Git', 'JSP', 'Jquery', 'Jira'],
-					role: "Senior Java developer",
+					role: "Senior Software engineer",
 					contents: `
 Worked as an outsourced Java developer for maintaining eRFX project using SQL Server, Java, and Struts 2 belong to Ascend Group (Thailand)
 
@@ -110,18 +110,22 @@ Worked as an outsourced developer for designing and building National Population
 					contents: `
 Designed and built real-time fraud detection system for ATM transactions, resulting in a significant reduction in fraudulent activity.
 
-- Studied and implemented new fraud detection algorithms and rules using Java and related technologies, such as Sk-learn and Tree-based algorithms, Tibco Statica, Tibco Datascience,....
+- Studied and implemented new fraud detection algorithms and rules using Java and related technologies, such as Sk-learn and Tree-based algorithms, Tibco Statica, Tibco Datascience, etc....
 `
 				},
 				{
 					title: 'In-house device management system',
 					period: 'Oct 2018 - Aug 2019',
-					skills: ['Java', 'C', 'Thing-boards', 'MQTT', 'Git'],
+					skills: ['Java', 'C', 'Thingboards', 'MQTT', 'Git'],
 					role: "Software engineer",
 					contents: `
-Collaborated with another startup for building the IOT application for managing multiple type of in-house devices' status
+Collaborated with another startup for building the IOT application for managing multiple types of in-house (building, store, etc...) devices' status
 
-- Developed features for the system using Java and related technologies
+- Learnt to use and customized Thingsboard CE features for the system using Java and related technologies
+
+- Developed simulator tool for pushing data continously to the Thingsboard platform
+
+- Implemented embedded C in device simulators to understand how the embedded devices work
 `
 				},
 				{
@@ -132,7 +136,7 @@ Collaborated with another startup for building the IOT application for managing 
 					contents: `
 Built the Java-based data platform that scrapes types of data from various sources, including social media platforms, websites, and search engines
 
-- Studied, suggested, implemented solutions for scraping tools and techniques such as Apache Storm streaming, Selenium, Headless browsers API, Facebook GraphAPI,... to the team
+- Studied, suggested, implemented solutions for scraping tools and techniques such as Apache Storm streaming, Selenium, Headless browsers API, Facebook GraphAPI,... to the team.
 `
 				}
 			]
