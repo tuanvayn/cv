@@ -41,14 +41,6 @@ Worked as an outsourced Java developer for maintaining multiple sub-system proje
 - Collaborated with the in-house development team to understand project requirements and design specifications
 
 - Led a 3 members team, developed and implemented new features for the client's services using Java and related technologies, such as Spring and Hibernate
-
-- Conducted code reviews and testing to ensure high-quality deliverables, worked with the project manager and team members to ensure timely delivery of project milestones
-
-- Communicated regularly with stakeholders to provide updates on progress and address any issues or concerns
-
-- Maintained and provided ongoing support for the client's services, including bug fixes and system upgrades
-
-- Completed the project on time and within budget, resulting in improved functionality and stability of the client's services.
 `
 				},
 				{
@@ -62,12 +54,6 @@ Worked as an outsourced Java developer for maintaining eRFX project using SQL Se
 - Collaborated with the in-house development team to understand project requirements and design specifications
 
 - Developed and implemented new features for the system using Java and related technologies, such as Struts 2 and JDBC, and utilized SQL Server for database management
-
-- Conducted code reviews and testing to ensure high-quality deliverables, worked with the project manager and team members to ensure timely delivery of project milestones
-
-- Communicated regularly with stakeholders to provide updates on progress and address any issues or concerns
-
-- Completed the project on time and within budget, resulting in improved efficiency and automation of the eRFX process.
 `
 				}
 			]
@@ -88,12 +74,6 @@ Worked as an outsourced Java developer for rebuilding Vietinbank business custom
 - Collaborated with the in-house development team to understand project requirements and design specifications
 
 - Led a team with 10 members, developed and implemented new microservices for the banking service using Java and related technologies, such as Spring Boot and Docker, Kubernetes
-
-- Conducted code reviews and testing to ensure high-quality deliverables, worked with the project manager and team members to ensure timely delivery of project milestones
-
-- Communicated regularly with stakeholders to provide updates on progress and address any issues or concerns
-
-- Completed the project on time and within budget, resulting in improved efficiency and scalability of banking services for business customers.
 `
 				},
 				{
@@ -107,12 +87,6 @@ Worked as an outsourced Java developer for designing and building Vietinbank sys
 - Collaborated with the in-house development team to understand project requirements and design specifications
 
 - Led a team with 4 members, developed and implemented new features for the system using Java and related technologies, such as Spring and Hibernate
-
-- Conducted code reviews and testing to ensure high-quality deliverables, worked with the project manager and team members to ensure timely delivery of project milestones
-
-- Communicated regularly with stakeholders to provide updates on progress and address any issues or concerns
-
-- Completed the project on time and within budget, resulting in improved efficiency and accuracy of financial transactions for the organization.
 `
 				},
 				{
@@ -126,14 +100,6 @@ Worked as an outsourced developer for designing and building National Population
 - Collaborated with the in-house development team to understand project requirements and design specifications
 
 - Led a team with 5 members, developed and implemented new features for the database using Java and related technologies, such as JDBC and SQL
-
-- Participated in research and gained knowledge of open source technology as well as proprietary technologies from major software vendors
-
-- Conducted code reviews and testing to ensure high-quality deliverables
-
-- Communicated regularly with the project manager and team members to provide updates on progress and address any issues or concerns
-
-- Completed the project on time and within budget, resulting in improved accuracy and accessibility of population data for law enforcement agencies.
 `
 				},
 				{
@@ -145,16 +111,6 @@ Worked as an outsourced developer for designing and building National Population
 Designed and built real-time fraud detection system for ATM transactions, resulting in a significant reduction in fraudulent activity.
 
 - Studied and implemented new fraud detection algorithms and rules using Java and related technologies, such as Sk-learn and Tree-based algorithms, Tibco Statica, Tibco Datascience,....
-
-- Collaborated with data analysts and fraud investigators to identify patterns and develop strategies for detecting and preventing fraud
-
-- Conducted performance tuning and optimization of the fraud detection system to handle large volumes of data in real-time
-
-- Worked with the project manager and team members to ensure timely delivery of project milestones
-
-- Communicated regularly with stakeholders to provide updates on progress and address any issues or concerns
-
-- Successfully delivered the project on time and within budget, resulting in improved fraud detection capabilities and reduced financial losses.
 `
 				},
 				{
@@ -166,12 +122,6 @@ Designed and built real-time fraud detection system for ATM transactions, result
 Collaborated with another startup for building the IOT application for managing multiple type of in-house devices' status
 
 - Developed features for the system using Java and related technologies
-
-- Collaborated with the project manager and team members to identify requirements and design specifications
-
-- Communicated regularly with stakeholders to provide updates on progress and address any issues or concerns
-
-- Successfully delivered the project on time and within budget, resulting in improved devices management capabilities and increased productivity.
 `
 				},
 				{
@@ -183,10 +133,6 @@ Collaborated with another startup for building the IOT application for managing 
 Built the Java-based data platform that scrapes types of data from various sources, including social media platforms, websites, and search engines
 
 - Studied, suggested, implemented solutions for scraping tools and techniques such as Apache Storm streaming, Selenium, Headless browsers API, Facebook GraphAPI,... to the team
-
-- Collaborated with the project manager and team members to identify requirements and design specifications
-
-- Participated in daily stand-up meetings and provided updates on the status of assigned tasks
 `
 				}
 			]
