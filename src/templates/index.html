@@ -26,7 +26,7 @@
 					</div>
 					<div>
 						<p>
-							<!-- <span class="small">while(true) i++;</span> -->
+							<span class="small">while(i&lt;u) i++;</span>
 							<!-- <time datetime="{{ buildinfo.date }}" class="small">Last update: {{ updated }}</time> -->
 						</p>
 						<p>
@@ -39,7 +39,7 @@
 					</div>
 				</div>
 				<div class="col-4 col-md-3 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
-					<img src="photo.jpg" class="rounded-circle img-fluid" alt="{{ name }}">
+					<!-- <img src="photo.jpg" class="rounded-circle img-fluid" alt="{{ name }}"> -->
 				</div>
 				<div class="col-print-6 col-12 col-md-5 offset-lg-1 col-lg-4">
 					<ul class="list-group list-group-flush">
@@ -74,9 +74,12 @@
 			<h5 class="mb-2">Skills</h5>
 			<div class="row align-items-center">
 				{{#each skills}}
-				<div class="col-print-3 col-4 col-md-4 col-lg-3 text-right">
-					<small class="lynchin">» {{ this.[0] }} ({{ this.[2] }})</small>
+				<div class="col-print-2 col-4 col-md-3 col-lg-2 text-right text-wrap">
+					<small class="lynchin">» {{ this.[0] }}</small>
 				</div>
+				<!-- <div class="col-print-3 col-4 col-md-4 col-lg-3 text-right">
+					<small class="lynchin">» {{ this.[0] }} ({{ this.[2] }})</small>
+				</div> -->
 				<!-- <div class="col-print-1 col-4 col-md-2 col-lg-1">
 					<div class="skills">
 						<div class="skills-bar" style="width: {{ this.[1] }}%"></div>
@@ -90,12 +93,14 @@
 			<h5 class="mb-2">Experience</h5>
 			{{#each company}}
 			<div><span class="fs-5 mb-3 under" style="color: #4193a9; font-weight: bolder;"><i
-						class="fa fa-building fact-icon"></i>{{cname}}</span><span style="float:right; color: #4193a9; font-weight: bolder;"
-					class="under lynchin2"> ({{cperiod}})</span></div>
+						class="fa fa-building fact-icon"></i>{{cname}}</span><span
+					style="float:right; color: #4193a9; font-weight: bolder;" class="under lynchin2">
+					({{cperiod}})</span></div>
 			{{#each prj}}
 			<div class="row d-block d-md-flex{{#unless @last}} mb-2{{/unless}}">
 				<div class="col-md-12">
-					<div><span class="medium lynchin2" style="color: #08b0b5;">{{role}}</span> — <span class="medium lynchin2" style="color: #0db4b9;">{{ title }}</span><span
+					<div><span class="medium lynchin2" style="color: #08b0b5;">{{role}}</span> — <span
+							class="medium lynchin2" style="color: #0db4b9;">{{ title }}</span><span
 							class="medium lynchin2" style="float:right; color: #08b0b5;">
 							{{period}}</span>
 					</div>
@@ -108,7 +113,7 @@
 				</div>
 			</div>
 			{{/each}}
-			<hr style="background-color: #4193a9; height: 0.1rem; border: 0; margin: 1rem 5rem 1rem 5rem;"/>
+			<hr style="background-color: #4193a9; height: 0.1rem; border: 0; margin: 1rem 5rem 1rem 5rem;" />
 			{{/each}}
 		</div>
 		<div class="mb-2">
