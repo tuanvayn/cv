@@ -3,7 +3,7 @@ module.exports = {
 	title: 'Software Engineer | Backend Developer | Java developer',
 	facts: {
 		'Email': '<a href="mailto:vuanhtuan3.14@gmail.com"><i class="fa fa-envelope fact-icon"></i>vuanhtuan3.14@gmail.com</a>',
-		'Mobile': '<a href="tel:+84385061465"><i class="fa fa-phone fact-icon"></i>(+84)385061465</a>',
+		'Mobile': '<a href="tel:+84385061465"><i class="fa fa-phone fact-icon"></i>(+84)38 506 1465</a>',
 		'LinkedIn': '<a href="https://www.linkedin.com/in/tuanvayn/"><i class="fa-brands fa-linkedin fact-icon"></i>/tuanvayn</a>',
 		'Github': '<a href="https://github.com/tuanvayn"><i class="fa-brands fa-github fact-icon"></i>/tuanvayn</a>'
 	},
@@ -13,8 +13,7 @@ module.exports = {
 		['OracleDB', 100, 'proficient'],
 		['Docker', 100, 'proficient'],
 		['K8s', 100, 'proficient'],
-		['REST', 100, 'proficient'],
-		['SOAP', 100, 'proficient'],
+		['REST & SOAP', 100, 'proficient'],
 		['Git', 100, 'proficient'],
 		['Kafka', 70, 'intermediate'],
 		['OSB/ESB', 70, 'intermediate'],
@@ -38,7 +37,7 @@ module.exports = {
 					contents: `
 Maintained multiple sub-system projects for PCCW (Hong Kong) client as an outsourced Java developer.
 
-- Active communicated with the in-house development team to understand project requirements and design specifications
+- Actively communicated with the in-house development team to understand project requirements and design specifications, as well as to catch up on tasks during daily stand-up meetings
 
 - Led a 3 members team, developed new features and improved old features for the client's services using Java and related technologies and utilized SQL Server for database management.
 `
@@ -81,14 +80,14 @@ Worked as an outsourced Java developer and built a Vietinbank system which suppo
 				{
 					title: 'National population database',
 					period: 'Mar 2020 - Jul 2021',
-					skills: ['Java', 'Spring', 'Hibernate', 'Oracle DB', 'Oracle Service Bus', 'SOAP', 'REST', 'Git'],
+					skills: ['Java', 'Spring', 'Hibernate', 'Oracle DB', 'Oracle Service Bus', 'SOAP', 'REST', 'Weblogic', 'Git'],
 					role: "Team lead",
 					contents: `
 Designed and built the National Population Database project under the Ministry of Public Security as an outsourced developer.
 
 - Worked closely with the internal software engineers to grasp the key needs and technical details of the product
 
-- Led a team with 3 members, developed services using Java and related technologies, such as Java, OSB, Weblogic.
+- Led a team with 3 members, developed services using Java and related technologies, such as Java, OSB, Weblogic
 
 - Attended to develop services in the system for managing population data using Spring Boot
 
@@ -103,7 +102,7 @@ Designed and built the National Population Database project under the Ministry o
 					contents: `
 Designed and built real-time fraud detection system for ATM transactions, resulting in a significant reduction in fraudulent activity.
 
-- Implemented algorithms and tools such as Tibco Statica, Tibco Datascience, Sk-learn and Tree-based algorithms, etc
+- Implemented ML algorithms and tools such as Tibco Statica, Tibco Datascience, Sk-learn and Tree-based algorithms, etc
 
 - Deployed trained model with the ~30% true positive (actual fraudulent activity) and ~25% false negative (actual non-fraudulent notify) result.
 `
@@ -111,14 +110,14 @@ Designed and built real-time fraud detection system for ATM transactions, result
 				{
 					title: 'In-house device management system',
 					period: 'Oct 2018 - Aug 2019',
-					skills: ['Java', 'C', 'Thingsboard', 'MQTT', 'Git', 'Docker'],
+					skills: ['Java', 'C', 'Thingsboard', 'MQTT', 'Git', 'TIBCO', 'Docker'],
 					role: "Software engineer",
 					contents: `
-Collaborated with a startup to build an IoT application for managing the status of various in-house devices (such as those in buildings and stores).
+Collaborated with a startup to build an IoT application for managing the status of various in-house devices (such as those in buildings, malls and stores).
 
-- Studied to use and customized Thingsboard CE features
+- Experience in customization and configuration of Thingsboard CE (Community Edition) features
 
-- Developed simulator tool for pushing data continuously to the Thingsboard platform
+- Developed simulator tool for pushing real-time data continuously to the Thingsboard platform
 
 - Implemented embedded C in device simulators to understand how the embedded devices work.
 `
@@ -131,7 +130,9 @@ Collaborated with a startup to build an IoT application for managing the status 
 					contents: `
 Built the Java-based data platform that scrapes types of data from various sources, including social media platforms, websites, and search engines.
 
-- Studied, suggested, implemented solutions for scraping tools and techniques such as Apache Storm streaming, Selenium, Headless browsers API, Facebook GraphAPI,... to the team.
+- Implemented solutions using scraping tools and techniques such as Selenium, Headless browsers API, Facebook GraphAPI, etc to collect data from real-estate and car selling websites, as well as Facebook groups
+
+- Experience with Apache Storm for data processing (ETL) tasks.
 `
 				}
 			]
