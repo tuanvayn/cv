@@ -139,7 +139,7 @@ Built the Java-based data platform that scrapes types of data from various sourc
 	],
 	edu: [
 		{
-			period: "Sep 2015 - July 2018",
+			period: "Sep 2015 - Jul 2018",
 			name: "Hanoi vocational College of Technology",
 			degree: "Higher Vocational Diploma",
 			note: [
