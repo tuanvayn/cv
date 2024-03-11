@@ -59,6 +59,7 @@ typings/
 
 # IDE
 .idea
+.vscode
 
 # Website dest
 dist
