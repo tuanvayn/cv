@@ -144,7 +144,7 @@ h4 {
 
 .skills::after {
 	display: block;
-	content: '••••';
+	content: '•••••';
 	color: var(--light-color);
 }
 
@@ -157,6 +157,50 @@ h4 {
 
 .skills-bar::after {
 	display: block;
-	content: '••••';
+	content: '•••••';
 	color: var(--bs-primary);
+}
+
+p {
+	margin-bottom: 0.15rem;
+}
+
+.under {
+	text-decoration: underline;
+}
+
+.sand {
+	color: #bdc3c7;
+}
+
+.pumice {
+	color: #d2d7d3;
+}
+
+.cascade {
+	color: #95a5a6;
+}
+
+.silver {
+	color: #bfbfbf;
+}
+
+.lynch {
+	color: #6c7a89;
+}
+
+.lynchre {
+	color: #7d8b9a;
+}
+
+.lynchin {
+	color: #172534;
+}
+
+.lynchin2 {
+	color: #061423;
+}
+
+.fs-5 {
+	font-size: 1.1rem !important;
 }
