@@ -32,7 +32,7 @@
 						<p>
 							<span class="screen"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Download PDF
 									version</a></span>
-							<span class="print">Newest version of CV is available at <a href="{{ baseUrl }}"
+							<span class="print">Update at <a href="{{ baseUrl }}"
 									class="text-nowrap"><i class="fab fa-github" aria-hidden="true"></i>{{ baseUrl
 									}}</a></span>
 						</p>
@@ -44,7 +44,7 @@
 				<div class="col-print-6 col-12 col-md-5 offset-lg-1 col-lg-4">
 					<ul class="list-group list-group-flush">
 						{{#each facts}}
-						<li class="list-group-item d-flex justify-content-between align-items-start">
+						<li class="list-group-item d-flex justify-content-between align-items-start" style="padding: 4px 8px;">
 							<!--span class="text-nowrap">{{ @key }}</span-->
 							<span class="text-nowrap">{{{ this }}}</span>
 						</li>
