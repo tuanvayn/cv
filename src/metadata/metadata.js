@@ -56,7 +56,7 @@ Responsibilities:
 			cperiod: "2022 - May 2024",
 			prj: [
 				{
-					title: 'Ringkas housing loan',
+					title: 'Indonesia Ringkas housing loan',
 					period: 'Sep 2023 - May 2024',
 					skills: ['Java', 'Spring Webflux', 'SOAP', 'REST', 'Git', 'AWS', 'ELK', 'Notion'],
 					role: "Senior Software engineer",
@@ -75,7 +75,7 @@ Responsibilities:
 `
 				},
 				{
-					title: 'P2C',
+					title: 'Hongkong P2C',
 					period: 'Jul 2022 - Aug 2023',
 					skills: ['Java', 'Struts', 'Spring', 'SOAP', 'REST', 'Git', 'JSP', 'Jquery', 'Jira'],
 					role: "Senior Software engineer",
