@@ -41,9 +41,11 @@ Develope, enhance, maintain features throughout the entire systems of Singapore 
 
 Responsibilities:
 
-- Develope, enhance, maintain multiple Back-end services in microservices system using Spring Batch, Spring Boot, Angular, Kafka, MsSQL, AWS, Jenkins,....
+- Lead a team with 4 backend members, guide team member, review and report performance to Project manager.
 
-- Pair with in-house BA for clearing SR/CR, use Jira with Agile principles to manage tasks in stages.
+- Develope, enhance, maintain multiple Back-end services in microservices system using Spring Boot, Spring Batch, Angular, Kafka, MsSQL, AWS, Jenkins,....
+
+- Collaborate closely with in-house Business Analysts to clarify Service Requests (SRs) and Change Requests (CRs), using Jira and Agile principles to manage tasks through each development stage.
 
 - Monitor infrastructure of development, staging environment include CloudWatch, Jenkins,... on AWS.
 `
@@ -108,6 +110,8 @@ Rebuilt Vietinbank's business customer banking service into microservices as an 
 
 Responsibilities:
 
+- Led a team with 6 backend members, mentored team members to review each other, resolve conflict.
+
 - Collaborated with the in-house development team to understand project requirements and design specifications.
 
 - Built infrastructure for development and UAT environment include Kubernetes, Rancher, ELK, Prometheus,... according to Vietinbank's running system documents.
@@ -115,8 +119,6 @@ Responsibilities:
 - Developed microservices for the banking service using Java 11 and related technologies, such as Spring Boot 2, Hibernate, Jasper Report, Oracle DB (with PL/SQL).
 
 - The developed product has won the Golden Star (Sao Khue) Award.
-
-- Led a team with 6 backend members, mentored team members to review each other, resolve conflict.
 `
 				},
 				{
@@ -129,13 +131,13 @@ Worked as an outsourced Java developer and built a Vietinbank system which suppo
 
 Responsibilities:
 
+- Led a team with 3 backend members, reviewed code of team members, estimated project tasks and effectively divided them among team members.
+
 - Collaborated with the in-house development team to understand project requirements and design specifications.
 
 - Built infrastructure for development and UAT environment include Kubernetes, Rancher, ELK, Prometheus,... according to Vietinbank's running system documents.
 
 - Developed Rest API services using Java 11 and related technologies, such as Spring Boot 8, Jasper Report, Hibernate, Oracle DB.
-
-- Led a team with 3 backend members, reviewed code of team members, estimated project tasks and effectively divided them among team members.
 `
 				},
 				{
@@ -148,9 +150,9 @@ Designed and built the National Population Database project under the Ministry o
 
 Responsibilities:
 
-- Worked closely with the in-house teams (PO, PM, SA, DEV) to grasp the key needs and technical details of the product.
-
 - Led a team with 3 members, developed integration services using Java and related technologies, such as Java, OSB, WebLogic, Oracle DB.
+
+- Worked closely with the in-house teams (PO, PM, SA, DEV) to grasp the key needs and technical details of the product.
 
 - Built development environment infrastructure on-premise: CentOS 7, Oracle DB, WebLogic clustering, CD manually using Bash/Shell and both Batch.
 
@@ -217,10 +219,30 @@ Responsibilities:
 			name: "Hanoi vocational College of Technology",
 			degree: "Higher Diploma",
 			note: [
-				"GPA: 8.4/10",
+				"GPA: 8.4/10 overall",
 				"#1 score of graduation project of Information Technology department",
 				"Teaching assistant for some subjects such as OOP, DSA, Java"
 			]
+		}
+	],
+	cert: [
+		{
+			period: "Jun 2024",
+			name: "SQL (Advanced) Certificate",
+			at: "Hackerrank",
+			link: "https://www.hackerrank.com/certificates/c3a69a726a76"
+		},
+		{
+			period: "May 2024",
+			name: "Rapid Developer Certification (ID: 74513)",
+			at: "Mendix",
+			link: "https://academy.mendix.com/file?guid=104427216362429739&changedDate=1744529811864&name=RapidDeveloperCertification-74513.pdf&target=internal"
+		},
+		{
+			period: "Sep 2020",
+			name: "Problem Solving (Basic) Certificate",
+			at: "Hackerrank",
+			link: "https://www.hackerrank.com/certificates/8c35d83bfc2c"
 		}
 	]
 };
