@@ -1,6 +1,6 @@
 module.exports = {
 	name: 'Tuan, Vu Anh',
-	title: 'Software Engineer | Backend Developer | Java developer',
+	title: 'Software Engineer | Backend Developer | Java Developer',
 	facts: {
 		'Email': '<a href="mailto:vuanhtuan3.14@gmail.com"><i class="fa fa-envelope fact-icon"></i>vuanhtuan3.14@gmail.com</a>',
 		'Mobile': '<a href="tel:+84385061465"><i class="fa fa-phone fact-icon"></i>(+84)38 506 1465</a>',
@@ -21,7 +21,7 @@ module.exports = {
 		['JS', 50, 'Mid-level'],
 		['WebLogic', 50, 'Mid-level'],
 		['AI/ML', 50, 'Mid-level'],
-		['Data processing', 50, 'Mid-level'],
+		['Data Processing', 50, 'Mid-level'],
 		['SVN', 50, 'Mid-level'],
 	],
 
@@ -32,180 +32,196 @@ module.exports = {
 			cperiod: "2024 - Present",
 			prj: [
 				{
-					title: 'IExams - Singapore Ministry of education',
-					period: 'May 2024 - Present',
+					title: 'IExams - Singapore Ministry of Education',
+					period: 'Oct 2024 - Present',
 					skills: ['Java', 'Spring Frameworks', 'SOAP', 'REST', 'Git', 'AWS', 'ELK', 'Notion'],
-					role: "Team lead",
+					role: "Team Lead",
 					contents: `
-Develope, enhance, maintain features throughout the entire systems of Singapore Ministry of education.
+Develop, enhance, and maintain features throughout the entire system of the Singapore Ministry of Education.
 
 Responsibilities:
 
-- Develope, enhance, maintain multiple Back-end services in microservices system using Spring Batch, Spring Boot, Angular, Kafka, MsSQL, AWS, Jenkins,....
+- Lead a team with 4 backend members, guide team members, review and report performance to the Project Manager.
 
-- Pair with in-house BA for clearing SR/CR, use Jira with Agile principles to manage tasks in stages.
+- Develop, enhance, and maintain multiple backend services in a microservices system using Spring Boot, Spring Batch, Angular, Kafka, MsSQL, AWS, Jenkins, etc.
 
-- Monitor infrastructure of development, staging environment include CloudWatch, Jenkins,... on AWS.
+- Collaborate closely with in-house Business Analysts to clarify Service Requests (SRs) and Change Requests (CRs), using Jira and Agile principles to manage tasks through each development stage.
+
+- Monitor the infrastructure of development and staging environments including CloudWatch, Jenkins, etc. on AWS.
+`
+				},
+				{
+					title: 'Draft',
+					period: 'May 2024 - Oct 2024',
+					skills: ['Java', 'Spring Frameworks', 'SOAP', 'REST', 'Git', 'AWS', 'ELK', 'Notion'],
+					role: "Java developer",
+					contents: `
+Develop, enhance, and maintain.
+
+Responsibilities:
+
 `
 				}
 			]
 		},
 		{
 			cname: "VMO Holdings",
-			crole: "Senior Java developer",
+			crole: "Senior Java Developer",
 			cperiod: "2022 - May 2024",
 			prj: [
 				{
-					title: 'Indonesia Ringkas housing loan',
+					title: 'Indonesia Ringkas Housing Loan',
 					period: 'Sep 2023 - May 2024',
 					skills: ['Java', 'Spring Webflux', 'SOAP', 'REST', 'Git', 'AWS', 'ELK', 'Notion'],
-					role: "Senior Software engineer",
+					role: "Senior Software Engineer",
 					contents: `
-Developed, enhanced, maintained features throughout the entire backend of v1 of CRM housing loan system.
+Developed, enhanced, and maintained features throughout the entire backend of version 1 of the CRM housing loan system.
 
 Responsibilities:
 
-- Develope, enhance, maintain multiple Back-end services in microservices system using Spring WebFlux, Spring Boot, OpenAPI, Kafka, R2DBC, PostgreSQL, Key-cloak involve to some Front-end tasks using React.js.
+- Develop, enhance, and maintain multiple backend services in a microservices system using Spring WebFlux, Spring Boot, OpenAPI, Kafka, R2DBC, PostgreSQL, and Keycloak, involving some frontend tasks using React.js.
 
-- Work closely with in-house teams for clearing PRD/URD, use Notion with Agile principles to manage tasks in stages.
+- Work closely with in-house teams for clearing PRD/URD, using Notion with Agile principles to manage tasks in stages.
 
-- Monitor infrastructure of development, sandbox, production environment include Kubernetes, Rancher, ELK,... on AWS EC2.
+- Work directly to clear technical issues when integrating with stakeholders like BTN (National Saving Bank of Indonesia), Whatsapp, Infobip (Messaging Service Provider).
 
-- Control full flow of CI/CD on deploying from develop environment to product environment using Gitlab CI with Gitlab flow.
+- Monitor the infrastructure of development, sandbox, and production environments including Kubernetes, Rancher, ELK, etc. on AWS EC2.
+
+- Control the full flow of CI/CD when deploying from the development environment to the production environment using GitLab CI with GitLab flow.
 `
 				},
 				{
-					title: 'Hongkong P2C',
+					title: 'Hong Kong P2C',
 					period: 'Jul 2022 - Aug 2023',
 					skills: ['Java', 'Struts', 'Spring', 'SOAP', 'REST', 'Git', 'JSP', 'Jquery', 'Jira'],
-					role: "Senior Software engineer",
+					role: "Senior Software Engineer",
 					contents: `
-Developed, enhanced, maintained multiple sub-system projects for PCCW (Hong Kong) client as an outsourced Java developer.
+Developed, enhanced, and maintained multiple sub-system projects for the PCCW (Hong Kong) client as an outsourced Java developer.
 
 Responsibilities:
 
-- Actively communicated with the in-house development team to clear project requirements and design specifications, as well as to catch up on tasks during daily stand-up meetings.
+- Actively communicated with the in-house development team to clarify project requirements and design specifications, as well as to catch up on tasks during daily stand-up meetings.
 
-- Developed new Rest APIs and converted SOAP services to Rest API using Java 6 and related technologies like Spring, Struts 2, JSP and utilized SQL Server for database management.
+- Developed new REST APIs and converted SOAP services to REST APIs using Java 6 and related technologies like Spring, Struts 2, JSP, and utilized SQL Server for database management.
 
-- Mentored 2 team members, guided how to work with client, workflow (coding and GitFlow), reviewed document and source code, estimated and divided project tasks among team members.
+- Mentored 2 team members, guided them on working with clients, workflow (coding and GitFlow), reviewed documents and source code, and estimated and divided project tasks among team members.
 `
 				}
 			]
 		},
 		{
 			cname: "Enterprise Nao",
-			crole: "Technical leader",
+			crole: "Technical Leader",
 			cperiod: "2018 - 2022",
 			prj: [
 				{
-					title: 'Vietinbank E-Fast business customers banking service',
+					title: 'Vietinbank E-Fast Business Customers Banking Service',
 					period: 'Jul 2021 - Jun 2022',
 					skills: ['Java', 'Spring', 'Hibernate', 'Jasper Report', 'REST', 'OracleDB', 'Docker', 'K8s', 'Git', 'Jira'],
-					role: "Team lead",
+					role: "Team Lead",
 					contents: `
 Rebuilt Vietinbank's business customer banking service into microservices as an outsourced Java developer.
 
 Responsibilities:
 
+- Led a team with 6 backend members, mentored team members to review each other, and resolve conflicts.
+
 - Collaborated with the in-house development team to understand project requirements and design specifications.
 
-- Built infrastructure for development and UAT environment include Kubernetes, Rancher, ELK, Prometheus,... according to Vietinbank's running system documents.
+- Built infrastructure for development and UAT environments including Kubernetes, Rancher, ELK, Prometheus, etc. according to Vietinbank's running system documents.
 
-- Developed microservices for the banking service using Java 11 and related technologies, such as Spring Boot 2, Hibernate, Jasper Report, Oracle DB (with PL/SQL).
+- Developed microservices for the banking service using Java 11 and related technologies such as Spring Boot 2, Hibernate, Jasper Report, Oracle DB (with PL/SQL).
 
-- The developed product has won the Golden Star (Sao Khue) Award.
-
-- Led a team with 6 backend members, mentored team members to review each other, resolve conflict.
+- The developed product won the Golden Star (Sao Khue) Award.
 `
 				},
 				{
 					title: 'Vietinbank E-Connect',
 					period: 'Jun 2021 - Mar 2022',
 					skills: ['Java', 'Spring', 'Hibernate', 'Jasper Report', 'REST', 'OracleDB', 'Docker', 'K8s', 'Git', 'Jira'],
-					role: "Team lead",
+					role: "Team Lead",
 					contents: `
-Worked as an outsourced Java developer and built a Vietinbank system which supported connections from other systems like Misa ERP, Grab, etc to core banking.
+Worked as an outsourced Java developer and built a Vietinbank system that supported connections from other systems like Misa ERP, Grab, etc. to core banking.
 
 Responsibilities:
+
+- Led a team with 3 backend members, reviewed team members' code, estimated project tasks, and effectively divided them among team members.
 
 - Collaborated with the in-house development team to understand project requirements and design specifications.
 
-- Built infrastructure for development and UAT environment include Kubernetes, Rancher, ELK, Prometheus,... according to Vietinbank's running system documents.
+- Built infrastructure for development and UAT environments including Kubernetes, Rancher, ELK, Prometheus, etc. according to Vietinbank's running system documents.
 
-- Developed Rest API services using Java 11 and related technologies, such as Spring Boot 8, Jasper Report, Hibernate, Oracle DB.
-
-- Led a team with 3 backend members, reviewed code of team members, estimated project tasks and effectively divided them among team members.
+- Developed REST API services using Java 11 and related technologies such as Spring Boot 2, Jasper Report, Hibernate, and Oracle DB.
 `
 				},
 				{
-					title: 'National population database',
+					title: 'National Population Database',
 					period: 'Mar 2020 - Jul 2021',
 					skills: ['Java', 'Spring', 'Hibernate', 'Oracle DB', 'Oracle Service Bus', 'SOAP', 'REST', 'WebLogic', 'Git'],
-					role: "Team lead",
+					role: "Team Lead",
 					contents: `
-Designed and built the National Population Database project under the Ministry of Public Security as an outsourcing developer.
+Designed and built the National Population Database project under the Ministry of Public Security as an outsourced developer.
 
 Responsibilities:
 
-- Worked closely with the in-house teams (PO, PM, SA, DEV) to grasp the key needs and technical details of the product.
+- Led a team with 3 members, developed integration services using Java and related technologies such as OSB, WebLogic, and Oracle DB.
 
-- Led a team with 3 members, developed integration services using Java and related technologies, such as Java, OSB, WebLogic, Oracle DB.
+- Worked closely with in-house teams (PO, PM, SA, DEV) to grasp the key needs and technical details of the product.
 
-- Built development environment infrastructure on-premise: CentOS 7, Oracle DB, WebLogic clustering, CD manually using Bash/Shell and both Batch.
+- Built development environment infrastructure on-premise: CentOS 7, Oracle DB, WebLogic clustering, and CD manually using Bash/Shell and Batch.
 
-- Attended to develop Backend services in the system for managing population data using Spring Boot, Oracle DB.
+- Participated in developing backend services for managing population data using Spring Boot and Oracle DB.
 
-- Supported directly connection from LGSP (Local Government Service Platform) and NGSP (National Government Service Platform) to the developed services.
+- Supported direct connections from LGSP (Local Government Service Platform) and NGSP (National Government Service Platform) to the developed services.
 `
 				},
 				{
-					title: 'ATM transactions fraud detection',
+					title: 'ATM Transactions Fraud Detection',
 					period: 'Aug 2019 - Mar 2020',
 					skills: ['Java', 'Python', 'Hibernate', 'Spring', 'Kafka', 'AI/ML', 'OracleDB', 'Docker', 'Git'],
-					role: "Software engineer",
+					role: "Software Engineer",
 					contents: `
-Designed and built real-time fraud detection system for ATM transactions, resulting in a significant reduction in fraudulent activity.
+Designed and built a real-time fraud detection system for ATM transactions, resulting in a significant reduction in fraudulent activity.
 
 Responsibilities:
 
-- Implemented ML algorithms and tools such as Tibco Statica, Tibco Datascience, Pandas, Sk-learn and Tree-based algorithm, etc libraries using Python to load data from Oracle DB for cleansing, enrichment data and train model.
+- Implemented ML algorithms and tools such as Tibco Statistica, Tibco Data Science, Pandas, Scikit-learn, and Tree-based algorithms using Python to load data from Oracle DB for cleansing, enriching, and training models.
 
-- Deployed trained model with the ~29% true positive (actual fraudulent activity) and ~25% false negative (actual non-fraudulent notify) result using Spring boot, Kafka with two main streams, one for training cycle, one for detection.
+- Deployed the trained model with ~29% true positives (actual fraudulent activity) and ~25% false negatives (actual non-fraudulent notifications) results using Spring Boot and Kafka with two main streams, one for the training cycle and one for detection.
 `
 				},
 				{
-					title: 'In-house device management system',
+					title: 'In-house Device Management System',
 					period: 'Nov 2018 - Aug 2019',
 					skills: ['Java', 'C', 'Thingsboard', 'MQTT', 'Git', 'Docker'],
-					role: "Software engineer",
+					role: "Software Engineer",
 					contents: `
-Collaborated with a startup to build an IoT application for managing the status of various in-house devices (such as those in buildings, malls and stores).
+Collaborated with a startup to build an IoT application for managing the status of various in-house devices (such as those in buildings, malls, and stores).
 
 Responsibilities:
 
-- Experience in customization (both using built-in and raw source code) and configuration of Thingsboard CE (Community Edition) features and deploy with Docker.
+- Customized and configured Thingsboard CE (Community Edition) features and deployed using Docker.
 
-- Developed simulator tools using Java and MQTT for pushing real-time data continuously to the Thingsboard.
+- Developed simulator tools using Java and MQTT for pushing real-time data continuously to Thingsboard.
 
-- Used Git as source control system and Trello as task management. 
+- Used Git as the source control system and Trello for task management.
 `
 				},
 				{
-					title: 'Scraping user data',
+					title: 'Scraping User Data',
 					period: 'Jan 2018 - Oct 2018',
 					skills: ['Java', 'Cassandra', 'Apache Storm', 'Selenium', 'SVN'],
-					role: "Software engineer",
+					role: "Software Engineer",
 					contents: `
-Built the Java-based company product that scrapes types of data from various sources, including social media platforms, websites, and search engines.
+Built a Java-based company product that scrapes types of data from various sources, including social media platforms, websites, and search engines.
 
 Responsibilities:
 
-- Implemented using scraping tools and libraries such as Selenium with headless Chrome, Facebook GraphAPI, etc to collect data from real-estate and car selling websites, as well as Facebook groups, streaming large amount of data by Apache Storm and store on Cassandra database.
+- Implemented scraping tools and libraries such as Selenium with headless Chrome, Facebook GraphAPI, etc. to collect data from real estate and car-selling websites, streaming large amounts of data using Apache Storm and storing it in Cassandra.
 
-- Applied techniques like IP rotation, human interaction simulation, discovery data allowed in robot.txt when scrap the data to avoid blocking by website.
+- Applied techniques like IP rotation, human interaction simulation, and discovery of data allowed in robots.txt to avoid blocking while scraping.
 
-- Used SVN as source control system and Trello as task management. 
+- Used SVN as the source control system and Trello for task management.
 `
 				}
 			]
@@ -214,13 +230,33 @@ Responsibilities:
 	edu: [
 		{
 			period: "Sep 2015 - Jul 2018",
-			name: "Hanoi vocational College of Technology",
+			name: "Hanoi Vocational College of Technology",
 			degree: "Higher Diploma",
 			note: [
-				"GPA: 8.4/10",
-				"#1 score of graduation project of Information Technology department",
-				"Teaching assistant for some subjects such as OOP, DSA, Java"
+				"GPA: 8.4/10 overall",
+				"#1 score in graduation project of the Information Technology department",
+				"Teaching assistant for subjects such as OOP, DSA, Java"
 			]
+		}
+	],
+	cert: [
+		{
+			period: "Jun 2024",
+			name: "SQL (Advanced) Certificate",
+			at: "Hackerrank",
+			link: "https://www.hackerrank.com/certificates/c3a69a726a76"
+		},
+		{
+			period: "May 2024",
+			name: "Rapid Developer Certification (ID: 74513)",
+			at: "Mendix",
+			link: "https://academy.mendix.com/file?guid=104427216362429739&changedDate=1744529811864&name=RapidDeveloperCertification-74513.pdf&target=internal"
+		},
+		{
+			period: "Sep 2020",
+			name: "Problem Solving (Basic) Certificate",
+			at: "Hackerrank",
+			link: "https://www.hackerrank.com/certificates/8c35d83bfc2c"
 		}
 	]
 };
