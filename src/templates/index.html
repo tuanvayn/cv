@@ -21,8 +21,8 @@
 			<div class="row">
 				<div class="col-print-6 col-12 col-md-4 d-flex justify-content-between flex-column">
 					<div>
-						<h4 class="mb-2">{{ name }}</h3>
-							<div class="fs-6">{{ title }}</div>
+						<h5 class="mb-2">{{ name }}</h5>
+						<div class="fs-6">{{ title }}</div>
 					</div>
 					<div>
 						<p>
@@ -32,9 +32,9 @@
 						<p>
 							<span class="screen"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Download PDF
 									version</a></span>
-							<span class="print">Update at <a href="{{ baseUrl }}" class="text-nowrap"><i
+							<!-- <span class="print">Update at <a href="{{ baseUrl }}" class="text-nowrap"><i
 										class="fab fa-github" aria-hidden="true"></i>{{ baseUrl
-									}}</a></span>
+									}}</a></span> -->
 						</p>
 					</div>
 				</div>
@@ -70,7 +70,7 @@
 		<div class="border-bottom border-2 border-print-0 border-dark mb-2 pb-2 pb-print-0 mb-print-0">
 			<h5 class="mb-2">Experience</h5>
 			{{#each company}}
-			<div><span class="fs-5 mb-3 under" style="color: #4193a9; font-weight: bolder;"><i
+			<div><span class="mb-3 under lynchin2" style="color: #4193a9; font-weight: bolder;"><i
 						class="fa fa-building fact-icon"></i>{{cname}}</span><span
 					style="float:right; color: #4193a9; font-weight: bolder;" class="under lynchin2">
 					({{cperiod}})</span></div>
@@ -129,14 +129,13 @@
 			</div>
 			{{/each}}
 			<h5 class="mb-2">Certifications</h5>
-			{{#each cert}}
-			<div class="row d-block d-md-flex mb-2">
-				<div class="col-md-2 pt-1" style="color: #4193a9; font-weight: bolder;">{{period}}</div>
-				<div class="col-md-10">
-					<div><a style="color: #131516;" href="{{link}}">{{name}} - {{at}}</a></div>
-				</div>
-			</div>
-			{{/each}}
+			<ul class="mb-0 ps-3">
+				{{#each cert}}
+				<li class="mb-1">
+					<a style="color: #131516;" href="{{link}}">{{name}} - {{at}}</a>
+				</li>
+				{{/each}}
+			</ul>
 		</div>
 	</div>
 </body>
