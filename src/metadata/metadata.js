@@ -33,21 +33,44 @@ module.exports = {
 			prj: [
 				{
 					title: 'IExams - Singapore Ministry of Education',
-					period: 'May 2024 - Present',
-					skills: ['Java', 'Spring Frameworks', 'SOAP', 'REST', 'Git', 'AWS', 'ELK', 'Notion'],
+					period: 'Oct 2024 - Present',
+					skills: ['Java', 'Spring Frameworks', 'SOAP', 'REST', 'SQL Server', 'Git', 'AWS', 'ELK', 'Jira'],
 					role: "Team Lead",
 					contents: `
-Develop, enhance, and maintain features throughout the entire system of the Singapore Ministry of Education.
+Leading backend development for the Ministry of Education's nationwide examination management system, covering end-to-end feature delivery, system stability, and team performance.
 
 Responsibilities:
 
-- Lead a team with 4 backend members, guide team members, review and report performance to the Project Manager.
+Lead a backend team of 4 engineers: assign tasks, mentor members, conduct weekly and monthly performance reviews, and report progress directly to the Project Manager.
 
-- Develop, enhance, and maintain multiple backend services in a microservices system using Spring Boot, Spring Batch, Angular, Kafka, MsSQL, AWS, Jenkins, etc.
+- Design, build, and enhance multiple microservices using Spring Boot, Spring Batch, Kafka, and MsSQL, ensuring reliability and performance across mission-critical workflows.
 
-- Collaborate closely with in-house Business Analysts to clarify Service Requests (SRs) and Change Requests (CRs), using Jira and Agile principles to manage tasks through each development stage.
+- Work closely with Business Analysts to clarify Service Requests (SR), Change Requests (CR), and incident reports, ensuring accurate and timely delivery following Agile/Scrum processes.
 
-- Monitor the infrastructure of development and staging environments including CloudWatch, Jenkins, etc. on AWS.
+- Oversee infrastructure health and CI/CD pipelines on AWS, including CloudWatch, Jenkins, and logging/monitoring stacks.
+
+- Contribute to overall system architecture discussions and guide the team in adopting coding best practices and clean code standards.
+`
+				},
+				{
+					title: 'STE - Singapore Water management System',
+					period: 'May 2024 - Oct 2024',
+					skills: ['Spring Frameworks', 'NodeJS', 'SOAP', 'REST', 'SQL Server', 'Git', 'LightRay DXP', 'Jira'],
+					role: "Software Engineer",
+					contents: `
+Participated in a large-scale migration project where the legacy Spring MVC + JSP system was rebuilt using a custom Node.js framework developed by the client.
+
+Responsibilities:
+
+- Migrated and refactored legacy Spring MVC modules into Spring Boot services for a large-scale system modernization.
+
+- Maintained and enhanced all Java services required due to Node.js framework limitations, especially modules using MSSQL stored procedures and triggers.
+
+- Developed a shared Java common library reused across services to standardize utilities and reduce duplication.
+
+- Collaborated with the Node.js team to integrate Java services with the client's custom framework and resolve cross-system issues.
+
+- Supported development of additional features after completing Java migration tasks.
 `
 				}
 			]
