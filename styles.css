@@ -1,21 +1,28 @@
 :root {
 	--bs-font-sans-serif: Roboto, sans-serif;
 	--bs-body-font-weight: 400;
-	--bs-body-color: #858585;
-	--bs-body-color-rgb: 133, 133, 133;
-	--light-color: #D9D9D9;
+	--bs-body-color: #000000;
+	--bs-body-color-rgb: 0, 0, 0;
+	--light-color: #000000;
 	--bs-body-font-size: 1.2rem;
+}
+
+body {
+	background-color: #f4f4f4;
+	color: #000000;
 }
 
 a {
 	word-break: break-word;
 	text-decoration: none;
+	color: #000000;
 }
 
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
 	color: #000000;
 }
 
@@ -25,6 +32,7 @@ h4 {
 	}
 
 	body {
+		background-color: #ffffff;
 		font-size: 0.7rem;
 	}
 
@@ -34,6 +42,8 @@ h4 {
 
 	.page {
 		min-width: 100%;
+		box-shadow: none;
+		border-radius: 0;
 	}
 
 	.screen {
@@ -68,6 +78,9 @@ h4 {
 @media not print {
 	.page {
 		padding: 2rem;
+		background-color: #ffffff;
+		border-radius: 10px;
+		box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
 	}
 
 	.print {
@@ -86,6 +99,10 @@ h4 {
 	strong {
 		font-weight: 500;
 	}
+}
+
+.page * {
+	color: #000000 !important;
 }
 
 .far,
@@ -127,7 +144,7 @@ h4 {
 
 .fact-icon {
 	width: 1em;
-	color: var(--light-color);
+	color: #000000;
 	margin-right: 0.5rem;
 }
 
@@ -158,7 +175,7 @@ h4 {
 .skills-bar::after {
 	display: block;
 	content: '•••••';
-	color: var(--bs-primary);
+	color: #000000;
 }
 
 p {
