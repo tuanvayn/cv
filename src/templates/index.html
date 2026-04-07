@@ -26,8 +26,6 @@
 					</div>
 					<div>
 						<p>
-							<!-- <span class="small">while(i&lt;u) i++;</span> -->
-							<!-- <time datetime="{{ buildinfo.date }}" class="small">Last update: {{ updated }}</time> -->
 						</p>
 						<p>
 							<span class="screen"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Download PDF
@@ -46,7 +44,7 @@
 						{{#each facts}}
 						<li class="list-group-item d-flex justify-content-between align-items-start"
 							style="padding: 4px 8px;">
-							<!--span class="text-nowrap">{{ @key }}</span-->
+							<span class="text-nowrap">{{ @key }}</span>
 							<span class="text-nowrap">{{{ this }}}</span>
 						</li>
 						{{/each}}
@@ -75,7 +73,7 @@
 					style="float:right; color: #4193a9; font-weight: bolder;" class="under lynchin2">
 					({{cperiod}})</span></div>
 			{{#each prj}}
-			<div class="row d-block d-md-flex{{#unless @last}} mb-2{{/unless}}">
+			<div class="row d-block d-md-flex{{#unless @last}} mb-0{{/unless}}">
 				<div class="col-md-12">
 					<div><span class="medium lynchin2" style="color: #08b0b5;">{{role}}</span> — <span
 							class="medium lynchin2" style="color: #0db4b9;">{{ title }}</span><span
@@ -83,11 +81,11 @@
 							{{period}}</span>
 					</div>
 					<div class="lynchin">{{{markdown contents }}}</div>
-					<!--<p>
+					<p>
 							{{#each skills }}
 							<span class="badge text-body border border-1">{{ this }}</span>
 							{{/each}}
-						</p>-->
+						</p>
 				</div>
 			</div>
 			{{/each}}
